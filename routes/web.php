@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 //Route::get('/', \App\Http\Controllers\User\UsersListController::class);
 Route::view('/users/create', 'users.create')->name('users.create');
-Route::get('/', function () {
-    return view('app');
-});
+// Home page
+Route::get('/', function () {return view('app');});
+// Page de connexions
+Route::get('/connexions', function () {return view('connection');});
+// Page creation de compte
+Route::get('/cree-son-compte', function () {return view('creeCompte');});
+

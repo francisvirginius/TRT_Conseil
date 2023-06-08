@@ -7,6 +7,9 @@
 import './bootstrap';
 import { createApp } from 'vue';
 import Home from './components/pages/Home.vue';
+import NavBar from './components/NavBar.vue';
+import Connexions from './components/pages/connexions.vue';
+import CreeCompte from './components/pages/creeCompte.vue';
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
@@ -16,6 +19,9 @@ import Home from './components/pages/Home.vue';
  
  const app = createApp({});
  app.component('home', Home);
+ app.component('navbar',NavBar);
+ app.component('connexions',Connexions);
+ app.component('creecompte',CreeCompte);
  
  
 

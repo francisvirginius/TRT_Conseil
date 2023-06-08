@@ -14,7 +14,7 @@
     <div class="mt-10 container mx-auto" id="app">
         @yield('content')
         <navbar></navbar>
-        <home></home>
+        <connexions></connexions>
 
     </div>
     <router-view></router-view>
