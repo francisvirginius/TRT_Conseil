@@ -1,7 +1,7 @@
 <template>
    <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="link-secondary" href="./profil/profil.php">Profil</a>
+        <a class="link-secondary" href="./profil">Profil</a>
       </div>
       <div class="col-4 text-center">
         <a class="blog-header-logo text-dark" href="./">TRT Conseil</a>
@@ -10,7 +10,7 @@
 <!--check and display email -->
         <p>NomUser</p>
         <!--<a id ="Btnconnexion" class="btn btn-sm btn-outline-secondary" href="./connection/connecter.php" >Connexion</a>-->
-        <Button buttonText="Connexion"/>
+        <Button buttonText="Connexion" buttonHref="/connexions"/>
       </div>
     </div>
   </template>

@@ -13,7 +13,7 @@
           </div>
       
           <Button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-6" type="submit">Se connecter</button>
-          <div id="creeCompte"><a href="/cree-son-compte">Je n'ai pas de compte !</a>
+          <div id="creeCompte"><a href="/connexions/cree-son-compte">Je n'ai pas de compte !</a>
           </div>
           <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
         </form>

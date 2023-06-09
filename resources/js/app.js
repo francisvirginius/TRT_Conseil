@@ -12,6 +12,7 @@ import Connexions from './components/pages/connexions.vue';
 import CreeCompte from './components/pages/creeCompte.vue';
 import VoirAnnonce from './components/pages/VoirAnnonce.vue';
 import ChoixUsers from './components/pages/ChoixUsers.vue';
+import Test from './components/pages/profil/test.vue';
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
  * registering components with the application instance so they are ready
@@ -25,6 +26,7 @@ import ChoixUsers from './components/pages/ChoixUsers.vue';
  app.component('creecompte',CreeCompte);
  app.component('voiranonnce',VoirAnnonce);
  app.component('choixusers',ChoixUsers);
+ app.component('test',Test);
  
  
 
