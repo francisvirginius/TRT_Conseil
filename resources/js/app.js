@@ -10,7 +10,8 @@ import Home from './components/pages/Home.vue';
 import NavBar from './components/NavBar.vue';
 import Connexions from './components/pages/connexions.vue';
 import CreeCompte from './components/pages/creeCompte.vue';
-
+import VoirAnnonce from './components/pages/VoirAnnonce.vue';
+import ChoixUsers from './components/pages/ChoixUsers.vue';
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
  * registering components with the application instance so they are ready
@@ -22,6 +23,8 @@ import CreeCompte from './components/pages/creeCompte.vue';
  app.component('navbar',NavBar);
  app.component('connexions',Connexions);
  app.component('creecompte',CreeCompte);
+ app.component('voiranonnce',VoirAnnonce);
+ app.component('choixusers',ChoixUsers);
  
  
 

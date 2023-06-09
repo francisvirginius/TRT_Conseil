@@ -11,7 +11,7 @@
   <div class="text-center ">
   <!-- btn post an ad if the user is a recruiter -->
 
-  <a class="btn btn-dark" href="./lesannonces/lesAnnonces.php">Voir les annonce</a>
+  <a class="btn btn-dark" href="/voirAnnonce">Voir les annonce</a>
 </div>
 <!-- recruiters post  -->
 <h1 class="text-center">Exemple des annonces</h1>

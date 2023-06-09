@@ -12531,6 +12531,9 @@ video {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .mb-auto {
   margin-bottom: auto;
 }
@@ -12542,9 +12545,6 @@ video {
 }
 .mt-16 {
   margin-top: 4rem;
-}
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 .mt-5 {
   margin-top: 1.25rem;

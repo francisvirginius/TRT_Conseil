@@ -20,5 +20,14 @@ Route::get('/', function () {return view('app');});
 // Page de connexions
 Route::get('/connexions', function () {return view('connection');});
 // Page creation de compte
-Route::get('/cree-son-compte', function () {return view('creeCompte');});
+Route::get('/connexions/cree-son-compte', function () {return view('creeCompte');});
+// Page des annonces 
+Route::get('/voir-annonces', function () {return view('voirAnnonce');});
+// Page de choix d'un users qui mène vers ça page de connexion
+Route::get('/choix-utilisateur', function () {return view('choixUsers');});
+// Page profil
+Route::get('/profil', function () {return view('profil');});
+
+
+
 
