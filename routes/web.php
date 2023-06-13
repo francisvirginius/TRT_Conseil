@@ -27,6 +27,12 @@ Route::get('/voir-annonces', function () {return view('voirAnnonce');});
 Route::get('/choix-utilisateur', function () {return view('choixUsers');});
 // Page profil
 Route::get('/profil', function () {return view('profil');});
+// page qui recherche des utilisateur 
+Route::get('/profil/chercher-utilisateur', function () {return view('searchUsers');});
+// formulaire pour ajouter une annonce 
+Route::get('/profil/ajouter-annonce', function () {return view('AjouterAnnonce');});
+
+
 
 
 

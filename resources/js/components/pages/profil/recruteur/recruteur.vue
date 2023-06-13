@@ -22,7 +22,7 @@
       <div class="bottom-bar">
         <ul>
             <li><button>Voir mes annonces validé</button></li>
-            <li><button>rechercher un utilisateur</button></li>
+            <li><a href="chercher-utilisateur">rechercher un utilisateur</a></li>
             <li><button>Ajouter une annonce</button></li>
             <li><button>supprimer mon profil</button></li>
 
