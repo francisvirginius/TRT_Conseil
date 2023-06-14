@@ -14,8 +14,10 @@ import VoirAnnonce from './components/pages/VoirAnnonce.vue';
 import ChoixUsers from './components/pages/ChoixUsers.vue';
 import Test from './components/pages/profil/test.vue';
 import SearchUsers from './components/SearchUser.vue';
-import AjouterAnnonce from './components/pages/profil/recruteur/AjouterAnnonce.vue'
-/**
+import AjouterAnnonce from './components/pages/profil/recruteur/AjouterAnnonce.vue';
+import VoirAnnonceRecruteur from './components/pages/profil/recruteur/VoirAnnonce.vue';
+import ModifierProfil from './components/pages/ModifierProfil.vue';
+/*
  * Next, we will create a fresh Vue application instance. You may then begin
  * registering components with the application instance so they are ready
  * to use in your application's views. An example is included for you.
@@ -31,6 +33,9 @@ import AjouterAnnonce from './components/pages/profil/recruteur/AjouterAnnonce.v
  app.component('test',Test);
  app.component('searchusers',SearchUsers);
  app.component('ajouterannonce',AjouterAnnonce);
+ app.component('voirannoncerecruteur',VoirAnnonceRecruteur);
+ app.component('modifierprofil',ModifierProfil);
+
 
  
  

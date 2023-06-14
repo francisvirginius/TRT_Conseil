@@ -31,6 +31,12 @@ Route::get('/profil', function () {return view('profil');});
 Route::get('/profil/chercher-utilisateur', function () {return view('searchUsers');});
 // formulaire pour ajouter une annonce 
 Route::get('/profil/ajouter-annonce', function () {return view('AjouterAnnonce');});
+// page qui liste les annonces des recruteurs
+Route::get('/profil/voir-annonce', function () {return view('voirAnnonceRecruteur');});
+//page qui modifie le profil des utilisateurs
+Route::get('/profil/modifier-profil', function () {return view('modifierProfil');});
+
+
 
 
 

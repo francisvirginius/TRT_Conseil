@@ -12507,18 +12507,6 @@ video {
 .right-0 {
   right: 0px;
 }
-.bottom-0 {
-  bottom: 0px;
-}
-.end-0 {
-  inset-inline-end: 0px;
-}
-.start-0 {
-  inset-inline-start: 0px;
-}
-.m-auto {
-  margin: auto;
-}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -12531,10 +12519,6 @@ video {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -12546,6 +12530,9 @@ video {
 }
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
@@ -12562,41 +12549,20 @@ video {
 .mt-16 {
   margin-top: 4rem;
 }
-.mt-5 {
-  margin-top: 1.25rem;
-}
-.me-2 {
-  -webkit-margin-end: 0.5rem;
-          margin-inline-end: 0.5rem;
-}
-.me-3 {
-  -webkit-margin-end: 0.75rem;
-          margin-inline-end: 0.75rem;
-}
-.ms-auto {
-  -webkit-margin-start: auto;
-          margin-inline-start: auto;
-}
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-5 {
+  margin-top: 1.25rem;
+}
 .mt-6 {
   margin-top: 1.5rem;
-}
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 .block {
   display: block;
 }
 .flex {
   display: flex;
-}
-.hidden {
-  display: none;
 }
 .h-5 {
   height: 1.25rem;
@@ -12616,9 +12582,6 @@ video {
 .max-w-sm {
   max-width: 24rem;
 }
-.flex-shrink {
-  flex-shrink: 1;
-}
 .cursor-default {
   cursor: default;
 }
@@ -12626,9 +12589,6 @@ video {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-}
-.flex-wrap {
-  flex-wrap: wrap;
 }
 .flex-nowrap {
   flex-wrap: nowrap;
@@ -12712,10 +12672,6 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -12742,9 +12698,6 @@ video {
 }
 .text-center {
   text-align: center;
-}
-.text-start {
-  text-align: start;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -12798,9 +12751,6 @@ video {
 }
 .opacity-100 {
   opacity: 1;
-}
-.opacity-50 {
-  opacity: 0.5;
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
